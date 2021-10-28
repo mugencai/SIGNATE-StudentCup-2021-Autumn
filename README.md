@@ -1,1 +1,1 @@
-# SIGNATE-Student-Cup-2021-
+# SIGNATE-Student-Cup-2021
