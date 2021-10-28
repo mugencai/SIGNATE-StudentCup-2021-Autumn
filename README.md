@@ -1,2 +1,2 @@
 # 12th
-# SIGNATE-Student-Cup-2021-Autumn
+# Signate-Student-Cup-2021-Autumn
