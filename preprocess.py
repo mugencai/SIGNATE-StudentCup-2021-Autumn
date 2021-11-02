@@ -79,7 +79,6 @@ testdata = add_yearmonth(test)
 
 
 traindata.head(2)
-
 testdata.head(2)
 
 #年月をチェックする
@@ -98,17 +97,3 @@ check_yearmonth(testdata)
 # df = pd.merge(train_groupby,test_groupby,on="yearmonth",how="outer")
 # df.fillna(0)
 # df.plot.barh(x="yearmonth",align='center',xlabel="", figsize=(6,8), stacked=True)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
