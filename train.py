@@ -47,18 +47,5 @@ def train(traindata, testdata, year_month):
         cv_score.append(evals_result["valid"]["rmse"][-1])
     else:
         cv_score.append(evals_result["valid"]["rmse"][model.best_iteration - 1])
-
-    
-    lgb.plot_metric(evals_result,title='YearMonth' + year_month +'_Metric during training',
-      xlabel='Iterations', ylabel='auto', figsize=None, grid=True)
-    
-#     lgb.plot_importance(
-#       model, 
-#       height=0.5,
-#       max_num_features=300,
-#       title='YearMonth' + year_month +'_Feature Importance',
-#       xlabel='Feature importance', ylabel="",
-#       figsize=(4.5 , 8), 
-#       grid=True)
     
     return test_split, model, cv_score
