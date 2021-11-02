@@ -1,8 +1,5 @@
-import os
-import sys
 import pandas as pd
-import numpy as np
-from pandas import Series, DataFrame
+import lightgbm as lgb
 
 def predict(test_split,model):
     #predict
