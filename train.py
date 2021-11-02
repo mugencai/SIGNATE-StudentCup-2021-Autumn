@@ -10,7 +10,6 @@ from sklearn.model_selection import GridSearchCV
 
 from preprocess import traindata, testdata
 
-
 cv_score = []
 
 def train(traindata, testdata, year_month):
