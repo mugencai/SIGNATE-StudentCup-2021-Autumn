@@ -1,4 +1,3 @@
-
 from train import train
 from predict import predict
 from utils import utils
@@ -45,7 +44,6 @@ utils.CV(cv_score)
 
 test_labels.columns = ["id", "pred"]
 submission = pd.DataFrame(test_labels)
-# submission.info()
 
 
 submission.to_csv("submission.csv",index=False, header=False)
