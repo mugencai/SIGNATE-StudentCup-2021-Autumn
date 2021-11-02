@@ -1,19 +1,4 @@
-import os
-import sys
-import pandas
 import pandas as pd
-import numpy as np
-from pandas import Series, DataFrame
-
-
-
-import warnings
-warnings.simplefilter('ignore')
-
-
-pd.set_option('display.max_columns', 500) 
-pd.set_option('display.max_rows', 500) 
-
 
 # pip install lightgbm --install-option=--gpu
 
@@ -76,24 +61,3 @@ def add_yearmonth(df):
 
 traindata = add_yearmonth(train)
 testdata = add_yearmonth(test)
-
-
-traindata.head(2)
-testdata.head(2)
-
-#年月をチェックする
-def check_yearmonth(df):
-    groupby = df.groupby("yearmonth").apply(lambda x: len(x)).reset_index()
-    groupby.columns = ["yearmonth","size"]
-    groupby = groupby.sort_values("yearmonth", ascending = True)
-    print("size_sum: " + str(groupby["size"].sum()) )
-    return groupby
-
-check_yearmonth(traindata)
-check_yearmonth(testdata)
-
-
-
-# df = pd.merge(train_groupby,test_groupby,on="yearmonth",how="outer")
-# df.fillna(0)
-# df.plot.barh(x="yearmonth",align='center',xlabel="", figsize=(6,8), stacked=True)
