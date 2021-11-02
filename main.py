@@ -10,21 +10,11 @@ from predict import predict
 from utils import utils
 from preprocess import traindata, testdata 
 
-def get_yearmonth_list():
-    _ = []
-    for x in range(4):
-        year_month = str(201409 + x)
-        _.append(year_month)
-    for x in range(1,9):
-        year_month = str(201500 + x)
-        _.append(year_month)
-    return _
-
 
 test_labels =[]
 test_labels = pd.DataFrame(test_labels)
 
-yearmonth_list = get_yearmonth_list()
+yearmonth_list = utils.get_yearmonth_list()
 
 while yearmonth_list != []:
     year_month = yearmonth_list.pop(0)
