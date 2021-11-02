@@ -43,10 +43,6 @@ _ = pd.get_dummies(_, dummy_na=False)
 train = _.loc[_["predict"] == 0]
 test = _.loc[_["predict"] == 1]
 
-
-train.isna().any(axis=0)
-test.isna().any(axis=0)
-
 #trainの欠損値を削除
 train = train.dropna(subset = ["bikes_available"])
 train.shape
