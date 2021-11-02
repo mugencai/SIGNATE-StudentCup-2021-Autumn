@@ -38,7 +38,7 @@ def train(traindata, testdata, year_month):
                 valid_sets=[lgb_train,lgb_eval],
                 evals_result=evals_result, #dict{}でmetricを保存
                 verbose_eval=500,  
-                num_boost_round=50, 
+                num_boost_round=3000, 
                 early_stopping_rounds=early_stopping_rounds,
                )
     
