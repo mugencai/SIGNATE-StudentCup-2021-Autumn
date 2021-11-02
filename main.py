@@ -1,7 +1,6 @@
 import os
 import sys
 import pandas as pd
-import matplotlib.pyplot as plt
 import numpy as np
 from pandas import Series, DataFrame
 import lightgbm as lgb
