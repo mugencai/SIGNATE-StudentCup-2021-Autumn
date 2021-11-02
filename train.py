@@ -1,14 +1,4 @@
-import os
-import sys
-import pandas as pd
-import numpy as np
-from pandas import Series, DataFrame
-
 import lightgbm as lgb
-from sklearn.model_selection import train_test_split
-from sklearn.model_selection import GridSearchCV
-
-from preprocess import traindata, testdata
 
 cv_score = []
 
