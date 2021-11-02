@@ -21,3 +21,14 @@ class utils():
         print("------------ " + " END" + " ------------") 
         cv_score = float(sum(cv_score))/len(cv_score) 
         print ("CV: ", cv_score)  
+        
+   
+    def get_yearmonth_list():
+        _ = []
+        for x in range(4):
+            year_month = str(201409 + x)
+            _.append(year_month)
+        for x in range(1,9):
+            year_month = str(201500 + x)
+            _.append(year_month)
+        return _
