@@ -26,6 +26,23 @@
   
   
   
+ 
+## コード構成
+
+```
+┣ code.ipynb　　　　　　
+┣ code/　　　　　　
+    ┣ preprocess.py         
+    ┣ train.py      		    
+    ┣ predict.py          	
+    ┣ main.py      		   	  
+    ┣ tool.py   		      	
+┣ picture/　　　　　　
+    ┣ slide_window.gif      
+    ┣ create_gif.ipynb      		
+```
+  
+  
 
 
 ## 注意点
@@ -43,20 +60,6 @@
   
 
 
-## コード構成
-
-```
-┣ code.ipynb　　　　　　
-┣ code/　　　　　　
-    ┣ preprocess.py         
-    ┣ train.py      		    
-    ┣ predict.py          	
-    ┣ main.py      		   	  
-    ┣ tool.py   		      	
-┣ picture/　　　　　　
-    ┣ slide_window.gif      
-    ┣ create_gif.ipynb      		
-```
 
 
   
