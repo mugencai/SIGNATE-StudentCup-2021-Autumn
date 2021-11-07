@@ -15,10 +15,10 @@
 
 ```
 ┣ data/
-    ┣ status.csv            - 自転車の台数状況データ
-    ┣ station.csv           - ステーション情報
-    ┣ weather.csv    		    - 気象情報
-    ┣ trip.csv              - 利用者の移動履歴データ
+    ┣ status.csv            
+    ┣ station.csv           
+    ┣ weather.csv    		    
+    ┣ trip.csv              
 ```
 
 参加規約より、配布データは各自でコンペ公式ページからダウンロードしてください。
@@ -48,11 +48,11 @@
 ```
 ┣ code.ipynb　　　　　　
 ┣ code/　　　　　　
-    ┣ preprocess.py         - データクレンジング
-    ┣ train.py      		    - モデルの訓練
-    ┣ predict.py          	- 予測
-    ┣ main.py      		   	  - メイン
-    ┣ tool.py   		      	- ツール
+    ┣ preprocess.py         
+    ┣ train.py      		    
+    ┣ predict.py          	
+    ┣ main.py      		   	  
+    ┣ tool.py   		      	
 ┣ picture/　　　　　　
     ┣ slide_window.gif      
     ┣ create_gif.ipynb      		
