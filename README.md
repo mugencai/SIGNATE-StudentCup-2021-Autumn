@@ -28,7 +28,7 @@
 
 ## 注意点
 
-<img src="C:\Users\dai\Desktop\待会儿改名字\slide_window.gif" style="zoom:67%;" />
+<img src="picture\slide_window.gif" style="zoom:67%;" />
 
 時系列データの場合、Validationのやり方を間違えることによって異常に高い精度が出てしまうというデータリークは発生しやすいので、交差検証の作り方は要注意です。
 
