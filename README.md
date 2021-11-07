@@ -70,4 +70,4 @@
 
 コンペ公式ページ: https://signate.jp/competitions/550
 
-交差検証の作り方:https://signate.jp/competitions/550/discussions/cv-1
+交差検証の作り方: https://signate.jp/competitions/550/discussions/cv-1
